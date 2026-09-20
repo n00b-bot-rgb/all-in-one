@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInitAllInOne
 {
     public static $prefixLengthsPsr4 = array (
-        'O' => 
+        'O' =>
         array (
             'OCA\\AllInOne\\' => 13,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'OCA\\AllInOne\\' => 
+        'OCA\\AllInOne\\' =>
         array (
             0 => __DIR__ . '/..' . '/../lib',
         ),
